@@ -15,6 +15,13 @@
     <description>Student Tutoring System</description>
     <properties>
         <java.version>21</java.version>
+        <sonar.coverage.exclusions>
+            src/main/java/com/doping/tech/configuration/**,
+            src/main/java/com/doping/tech/entity/**,
+            src/main/java/com/doping/tech/enums/**,
+            src/main/java/com/doping/tech/exception/**,
+            src/main/java/com/doping/tech/model/**
+        </sonar.coverage.exclusions>
     </properties>
     <dependencies>
         <dependency>
